@@ -24,6 +24,7 @@ We assign every network with an id, here is a table to provide ids for each netw
 ID | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | a | b | c |
 ---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 Network Name|Inc-v3|Inc-v4|Res-50|Res-101|Res-152|IncRes-v2|Inc-v3~ens3~|Inc-v3~ens4~|IncRes-v2~ens~|Vgg~16~|Vgg~19~|Inc-v3~adv~|IncRes-v2~adv~|
+
 If you want to attack all $8$ normally-trained models,you can change the source models by modify attack_network by
 ```bash
 python attack.py --attack_network = "0123459a"
