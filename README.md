@@ -17,7 +17,7 @@ We propose a new multi-stage ensemble attack method, in which two general strate
 + Numpy  1.16.5
 ### Dataset and model checkpoints
 We use images from ImageNet LSVRC 2012 Validation Set and resized them to 224x224. You can download the preprocessed images **[HERE](http://www.image-net.org/challenges/LSVRC/2012/)**.
- We adopt 13 models in our experiments, including 8 normally-trained models, i.e., Resnet-v2-{50, 101,152} , Vgg~16~ , Vgg~19~ ,Inc-v3, Inc-v4 and IncRes-v2 , and 2 adversarially-trained model, i.e., Inc-v3~adv~  and IncRes- v2~adv~, and 3 models trained with ensemble adversarial training, i.e., Inc-v3~ens3~, Inc-v3~ens4~ and IncRes-v2~ens~.We original download them and theirs checkpoints from [here](https://github.com/tensorflow/models/tree/master/research/slim) and [here](https://github.com/tensorflow/models/tree/master/research/adv_imagenet_models).
+ We adopt 13 models in our experiments, including 8 normally-trained models, i.e., Resnet-v2-{50, 101,152} , Vgg<sub>16</sub> , Vgg<sub>19</sub> ,Inc-v3, Inc-v4 and IncRes-v2 , and 2 adversarially-trained model, i.e., Inc-v3~adv~  and IncRes- v2~adv~, and 3 models trained with ensemble adversarial training, i.e., Inc-v3~ens3~, Inc-v3~ens4~ and IncRes-v2~ens~.We original download them and theirs checkpoints from [here](https://github.com/tensorflow/models/tree/master/research/slim) and [here](https://github.com/tensorflow/models/tree/master/research/adv_imagenet_models).
 #### Our proposed method
 
 We assign every network with an id, here is a table to provide ids for each network. 
